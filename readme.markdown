@@ -1,4 +1,4 @@
-# SASS Sugar
+# Sass Sugar
 
 To install: download [Sass.sugar.zip](http://sss.hawx.me/latest/Sass.sugar.zip), unzip by double clicking it, then drag 
 into `~/Library/Application Support/Espresso/Sugars` (you may need to use `CMD+SHIFT+G` in the Finder to get to 
@@ -9,12 +9,12 @@ Or to install the sugar using `git` just open the terminal and type:
     cd ~/Library/Application\ Support/Espresso/Sugars
     git clone git://github.com/hawx/Sass.sugar.git
     
-__NOTE:__ This is meant for the SASS style syntax and has extremely limited support for SCSS syntax. Do not send pull requests adding support for SCSS features, as they will not be merged!
+__NOTE:__ This is meant for the Sass style syntax and has extremely limited support for SCSS syntax. Do not send pull requests adding support for SCSS features, as they will not be merged!
 
-## SASS Settings
+## Sass Settings
 
-To use the sass convert features you don't need to do anything different, but I guess most people are like me and have a 
-folder for sass files and another for css. To make the sass go into your css folder you will need to change the
+To use the sass-convert features you don't need to do anything different, but I guess most people are like me and have a 
+folder for Sass files and another for css. To make the Sass go into your css folder you will need to change the
 preferences.
 
 ### For Espresso 1

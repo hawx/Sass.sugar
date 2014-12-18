@@ -1,8 +1,8 @@
 <action-recipes>
-	
+
 	<action id="at.hawx.TextActions.SASS.Convert" category="actions.SASS">
 		<class>TEALoader</class>
-		<title>Convert to SASS</title>
+		<title>Convert to Sass</title>
 		<setup>
 			<script>to_sass.rb</script>
 			<input>document</input>
@@ -11,7 +11,7 @@
 			<syntax-context>css, css *</syntax-context>
 		</setup>
 	</action>
-	
+
 	<action id="at.hawx.TextActions.CSS.Convert" category="actions.SASS">
 	  <class>TEALoader</class>
 		<title>Convert to CSS</title>
@@ -19,11 +19,11 @@
 			<script>to_css.rb</script>
 			<input>document</input>
 			<output>document</output>
-			<undo_name>Convert to SASS</undo_name>
+			<undo_name>Convert to Sass</undo_name>
 			<syntax-context>sass, sass *</syntax-context>
 		</setup>
 	</action>
-	
+
 	<action id="at.hawx.TextActions.CSS.Create" category="actions.SASS">
 	  <class>TEALoader</class>
 		<title>Create CSS</title>
@@ -34,7 +34,7 @@
 			<syntax-context>sass, sass *</syntax-context>
 		</setup>
 	</action>
-	
+
 	<action id="at.hawx.TextActions.CSS.SingleCreate" category="actions.SASS">
 	  <class>TEALoader</class>
 		<title>Create Single CSS</title>
@@ -45,5 +45,5 @@
 			<syntax-context>sass, sass *</syntax-context>
 		</setup>
 	</action>
-	
+
 </action-recipes>
